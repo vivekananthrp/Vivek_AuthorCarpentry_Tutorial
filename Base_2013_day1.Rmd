@@ -1,7 +1,7 @@
 ---
 title: Data Management Plan for the Study _Do Reputable Open Access Journals Require
   Open Data Sharing?_
-author: "Gail Clement"
+author: "R.P. Vivek-Ananth"
 date: "August 9, 2018"
 output: slidy_presentation
 bibliography: oajournals.bib
@@ -25,7 +25,7 @@ knitr::opts_chunk$set(echo=FALSE, warning=FALSE,message=FALSE, cache=FALSE)
 ```{r add_dataset}
 # Add the dataset of DOAJ Seal journals
 
-doaj_seal <- read_csv('DOAJ_Seal.csv')
+doaj_seal <- read_csv('data/DOAJ_Seal.csv')
 
 ```
 
